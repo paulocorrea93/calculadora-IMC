@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    color: #cbdad5;
+}
+
+body{
+    background-color: #cbdad5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.todo-container{
+    /* border: 1px solid red; */
+    width: 50vw;
+}
+
+.todo-titulo{
+    text-align: center;
+    background-color: #34344e;
 }
