@@ -5,17 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Avalie a Aplicação!</title>
+    <title>Calculadora IMC</title>
 </head>
 <body>
-    
-    <div class="todo-container">
-        <div class="todo-titulo">
-            <h1></h1>
+    <main class="container">
+        <div class="calc-container">
+            <div class="titulo">Calcule seu IMC</div>
+            <div class="label">
+                <label for="">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="label">
+                <label for="">Peso</label>
+                <input type="text" id="peso">
+            </div>
+            <div class="label">
+                <label for="">Altura</label>
+                <input type="text" id="altura">
+            </div>
+            <button class="calcular">Calcular</button>
+            <div class="resultado"></div>
+            
         </div>
-        <div class="todo-itens"></div>
-        <div class="todo-inserir"></div>
-    </div>
+    </main>
 
     <script src="./main.js"></script>
 </body>
