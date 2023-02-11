@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: #ffdd8c;
+    color: #700808;
 }
 
 .container{
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 25vw;
+    width: 350px;
     height: 500px;
     background-color: #700808;
     border-radius: 20px;
@@ -44,10 +44,12 @@ input{
     height: 30px;
     color: #700808;
     font-size: 15px;
+    text-align: center;
 }
 
 label{
     font-size: 20px;
+    color: #f7c6a7;
 }
 
 .calcular{
@@ -72,4 +74,5 @@ label{
     background-color: #ffdd8c;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px rgba(26, 26, 26, 0.5);
+    padding: 20px;
 }
